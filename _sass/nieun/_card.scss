@@ -10,7 +10,7 @@
 		left: 17px;
 		bottom: 20px;
 		opacity: 0;
-		color: #fff;
+		color: $front-color;
 		font-size: 1.5em;
 		-webkit-transition: .3s ease-in-out;
 		transition: .3s ease-in-out;
@@ -18,7 +18,7 @@
 
 	p {
 		position: absolute;
-		color: #fff;
+		color: $front-color;
 		z-index:100;
 		left: 17px;
 		bottom: 0;

@@ -1,0 +1,55 @@
+header {
+	height: 240px;
+	background-color: $background-color;
+
+	.box {
+		h1 {
+			font-size: 1.6em;
+			color: $glad-text-color;
+			font-weight: 900;
+
+			span {
+				border-bottom: 4px solid $primary-color;
+				padding-bottom: 8px;
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 48em) {
+	header {
+		height: 480px;
+
+		.box {
+			h1 {
+				font-size: 3.25em;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 64em) {
+	header {
+		.box {
+			h1 {
+				font-size:  3.8em;
+
+				span {
+					margin-left: 64px;
+					border-bottom: 8px solid $primary-color;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 75em) {
+	header {
+		.box {
+			h1 {
+				font-size: 5em;
+			}
+		}
+	}
+}

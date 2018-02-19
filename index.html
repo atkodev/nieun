@@ -1,21 +1,25 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="row">
-    <div class="card col-xs-12 col-sm-6 col-md-3" style="background: #f00">
-    	가즈아ㅏ
-    </div>
+    {% if site.show-about %}
+        <article class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="about.html">
+                <h2>{{ site.about-title }}</h2>
+                <p>{{ site.about-description }}</p>
+                <img src="{{ site.about-image }}" />
+            </a>
+        </article>
+    {% endif %}
 
-    <div class="card col-xs-12 col-sm-6 col-md-3" style="background: #f00">
-    	가즈아ㅏ
-    </div>
-
-    <div class="card col-xs-12 col-sm-6 col-md-3" style="background: #f00">
-    	가즈아ㅏ
-    </div>
-
-    <div class="card col-xs-12 col-sm-6 col-md-3" style="background: #f00">
-    	가즈아ㅏ
-    </div>
+    {% for post in site.posts %}
+        <article class="card col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="{{ post.url | relative_url }}">
+                <h2>{{ post.title | escape }}</h2>
+                <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+                <img src="{{ post.cover-img }}" />
+            </a>
+        </article>
+    {% endfor %}
 </div>

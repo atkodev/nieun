@@ -2,4 +2,14 @@
 layout: default
 ---
 
-{{ content }}
+{% if page.show-header %}
+	{% include header.html %}
+{% endif %}
+
+{% if page.use-posted-type %}
+	<article class="article">
+		{{ content }}
+	</article>
+{% else %}
+	{{ content }}
+{% endif %}

@@ -9,15 +9,16 @@ description: your description
 twitter_username: your_twitter_username_without_@
 github_username:  your_github_username_without_#
 
-show-about: false
-about-title:
-about-description:
-about-image: 
+show-about: true
+about-title: Introduce My Self
+about-description: this post contain resume
+about-image: /assets/images/covers/telephone-pole.jpg
 
 ###############
 #    build    #
 ###############
 baseurl: ""
+imageurl: "/assets/images"
 url: ""
 markdown: kramdown
 plugins:

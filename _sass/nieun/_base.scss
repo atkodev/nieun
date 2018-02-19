@@ -3,6 +3,8 @@ body {
   color: $front-color;
   font-kerning: normal;
   background-color: $background-color;
+  word-wrap: break-word;
+  word-break: keep-all;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;

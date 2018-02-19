@@ -59,6 +59,7 @@ $turning-width: 48em;
 
 	iframe {
 		width: 100%;
+		min-height: 320px;
 	}
 
 	table {
@@ -70,6 +71,15 @@ $turning-width: 48em;
 		thead {
 			background-color: #f00;
 		}
+	}
+
+	a {
+		color: $front-color;
+		font-weight: 700;
+	}
+
+	small {
+		color: $grey-color;
 	}
 }
 

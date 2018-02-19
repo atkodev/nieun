@@ -52,6 +52,25 @@ $turning-width: 48em;
 	@media only screen and (min-width: $turning-width) {
 		margin: 32px auto;
 	}
+
+	p img {
+		width: 100%;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	table {
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		thead {
+			background-color: #f00;
+		}
+	}
 }
 
 blockquote {

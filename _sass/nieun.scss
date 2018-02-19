@@ -6,14 +6,14 @@
 
 $base-font-family: "Noto Sans KR", Helvetica, Arial, san-serif !default;
 $base-font-weight: 400 !default;
-$base-line-height: 1.4 !default;
+$base-line-height: 1.5 !default;
 $base-font-size: 16px !default;
 
-$front-color: #000000;
-$grey-color: #999;
+$front-color: #ffffff;
+$grey-color: #dddddd;
 $primary-color: #E91E63;
-$background-color: #ffffff;
-$glad-text-color: #222842;
+$background-color: #222842;
+$glad-text-color: #ffffff;
 
 @import
 	"nieun/base",

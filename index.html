@@ -18,7 +18,7 @@ layout: home
             <a href="{{ post.url | relative_url }}">
                 <h2>{{ post.title | escape }}</h2>
                 <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-                <img src="{{ post.cover-img }}" />
+                <img src="/assets/images/covers/{{ post.cover-img }}" />
             </a>
         </article>
     {% endfor %}

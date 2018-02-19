@@ -75,6 +75,16 @@ $turning-width: 48em;
 	small {
 		color: $grey-color;
 	}
+
+	& > code {
+		font-size: 0.8em;
+		border: 1px solid lighten($grey-color, 30%);
+		color: invert($grey-color, 100%);
+		background-color: $grey-color;
+		border-radius: 3px;
+		margin-right: 4px;
+		padding: 2px;
+	}
 }
 
 blockquote {

@@ -12,6 +12,10 @@ body {
   font-feature-settings: "kern" 1;
 }
 
+*::selection {
+    background: lighter($primary-color, 30%);
+}
+
 .row {
 	margin: 0;
 }

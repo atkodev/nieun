@@ -1,0 +1,18 @@
+.article {
+	max-width: 960px;
+	text-align: left;
+	margin: 0 16px;
+
+	@media only screen and (min-width: 960px) {
+		margin: 0 auto;
+	}
+}
+
+blockquote {
+	border-left: 10px solid $primary-color;
+	margin: 38px 0;
+
+	p {
+		margin: 0 24px;
+	}
+}

@@ -2,9 +2,9 @@
 
 Simple photo-oriented Jekyll theme
 
-![Image](https://cdn.rawgit.com/W1m3R/nieun/7865525d/.github/main.png)
-![Image](https://cdn.rawgit.com/W1m3R/nieun/7865525d/.github/post.png)
-![Image](https://cdn.rawgit.com/W1m3R/nieun/7865525d/.github/about.png)
+![Image](https://rawgit.com/W1m3R/nieun/master/.github/main.png)
+![Image](https://rawgit.com/W1m3R/nieun/master/.github/post.png)
+![Image](https://rawgit.com/W1m3R/nieun/master/.github/about.png)
 
 ### Installation
 > Use fork feature on github

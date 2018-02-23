@@ -1,0 +1,32 @@
+.toolbar {
+	padding: 16px 0;
+	max-width: $turning-width;
+	margin: 0 16px;
+
+	%text {
+		font-size: 1.3em;
+		padding: 0;
+		margin: 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.title {
+		@extend %text;
+		font-weight: 800;
+		color: $primary-color;
+	}
+
+	.menu {
+		@extend %text;
+		float: right;
+		padding: 0 4px;
+		color: rgba($front-color, .6)
+	}
+
+	@media only screen and (min-width: $turning-width) {
+		margin: 0 auto;
+	}
+}

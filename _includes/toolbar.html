@@ -1,5 +1,13 @@
-<div class="toolbar">
-	<a href="/" class="title">{{ site.name }}</a>
+<div class="toolbar-wrapper">
+{% if include.wide %}
+	<div class="toolbar wide">
+{% else %}
+	<div class="toolbar">
+{% endif %}
+		<a href="/" class="title">{{ site.name }}</a>
 
-	<a href="/" class="menu">contact</a>
+		<a href="/" class="menu">contact</a>
+	</div>
 </div>
+
+<div class="toolbar-space"></div>

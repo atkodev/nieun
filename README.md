@@ -10,6 +10,10 @@ Simple photo-oriented Jekyll theme
 > Use fork feature on github
 
 
+### Disqus
+put your disqus site name into `_config.yml`
+
+
 ### License
 
 ~~~

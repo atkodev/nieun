@@ -3,6 +3,8 @@ header {
 	background-color: $background-color;
 
 	.box {
+		margin-top: -20px;
+
 		h1 {
 			font-size: 1.6em;
 			color: $glad-text-color;
@@ -22,6 +24,8 @@ header {
 		height: 480px;
 
 		.box {
+			margin-top: -50px;
+
 			h1 {
 				font-size: 3.25em;
 			}
